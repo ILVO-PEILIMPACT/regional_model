@@ -1,0 +1,538 @@
+soil_id,soil_texture,starring_series
+0,sand (Z),B01
+1,heavy clay (U),B11
+2,heavy clay (U),B11
+3,heavy clay (U),B11
+4,clay (E),B09
+5,clay (E),B09
+6,heavy clay (U),B11
+7,heavy clay (U),B11
+8,clay (E),B10
+9,heavy clay (U),B11
+10,heavy clay (U),B11
+11,heavy clay (U),B11
+12,heavy clay (U),B11
+13,heavy clay (U),B11
+14,heavy clay (U),B11
+15,heavy clay (U),B11
+16,clay (E),B09
+17,clay (E),B09
+18,clay (E),B09
+19,clay (E),B09
+20,clay (E),B10
+21,clay (E),B09
+22,clay (E),B10
+23,clay (E),B10
+24,clay (E),B09
+25,clay (E),B09
+26,light sandy loam (P),B03
+27,light sandy loam (P),B07
+28,light sandy loam (P),B07
+29,heavy clay (U),B11
+30,heavy clay (U),B11
+31,heavy clay (U),B11
+32,sandy loam (L),B08
+33,heavy clay (U),B11
+34,heavy clay (U),B11
+35,clay (E),B09
+36,clay (E),B08
+37,heavy clay (U),B11
+38,heavy clay (U),B11
+39,heavy clay (U),B11
+40,clay (E),B09
+41,clay (E),B09
+42,heavy clay (U),B11
+43,heavy clay (U),B11
+44,heavy clay (U),B11
+45,heavy clay (U),B11
+46,heavy clay (U),B11
+47,heavy clay (U),B11
+48,sand (Z),B01
+49,heavy clay (U),B11
+50,heavy clay (U),B11
+51,heavy clay (U),B11
+52,loamy sand (S),B07
+53,sand (Z),B01
+54,sandy loam (L),B08
+55,sandy loam (L),B08
+56,clay (E),B09
+57,clay (E),B09
+58,clay (E),B10
+59,heavy clay (U),B11
+60,clay (E),B09
+61,clay (E),B10
+62,clay (E),B09
+63,clay (E),B09
+64,clay (E),B09
+65,clay (E),B09
+66,clay (E),B09
+67,clay (E),B09
+68,clay (E),B09
+69,clay (E),B09
+70,loamy sand (S),B03
+71,loamy sand (S),B03
+72,loamy sand (S),B03
+73,clay (E),B10
+74,clay (E),B10
+75,loamy sand (S),B03
+76,clay (E),B10
+77,loam (A),B13
+78,sandy loam (L),B08
+79,clay (E),B09
+80,sandy loam (L),B13
+81,sand (Z),B01
+82,sand (Z),B01
+83,light sandy loam (P),B07
+84,loamy sand (S),B02
+85,loamy sand (S),B02
+86,loamy sand (S),B02
+87,loamy sand (S),B01
+88,sand (Z),B01
+89,sand (Z),B02
+90,sand (Z),B01
+91,sand (Z),B01
+92,sand (Z),B01
+93,sand (Z),B01
+94,sand (Z),B01
+95,sand (Z),B01
+96,light sandy loam (P),B07
+97,light sandy loam (P),B07
+98,loamy sand (S),B02
+99,loamy sand (S),B02
+100,loamy sand (S),B02
+101,loamy sand (S),B02
+102,loamy sand (S),B02
+103,loamy sand (S),B01
+104,sand (Z),B01
+105,sand (Z),B01
+106,sand (Z),B01
+107,sand (Z),B01
+108,sand (Z),B01
+109,sand (Z),B02
+110,sand (Z),B01
+111,sand (Z),B01
+112,loamy sand (S),B02
+113,sand (Z),B01
+114,sand (Z),B02
+115,sand (Z),B01
+116,sand (Z),B01
+117,sand (Z),B01
+118,loamy sand (S),B07
+119,light sandy loam (P),B07
+120,loamy sand (S),B07
+121,loamy sand (S),B02
+122,loamy sand (S),B02
+123,loamy sand (S),B02
+124,loamy sand (S),B02
+125,loamy sand (S),B02
+126,loamy sand (S),B02
+127,loamy sand (S),B02
+128,sand (Z),B01
+129,sand (Z),B01
+130,sand (Z),B01
+131,sand (Z),B01
+132,sand (Z),B02
+133,sand (Z),B01
+134,sand (Z),B01
+135,sand (Z),B01
+136,sand (Z),B01
+137,sand (Z),B01
+138,sand (Z),B02
+139,sand (Z),B01
+140,sand (Z),B01
+141,sand (Z),B01
+142,clay (E),B09
+143,sand (Z),B02
+144,light sandy loam (P),B03
+145,light sandy loam (P),B07
+146,sand (Z),B02
+147,loamy sand (S),B02
+148,loamy sand (S),B02
+149,loamy sand (S),B02
+150,loamy sand (S),B02
+151,sand (Z),B01
+152,sand (Z),B01
+153,sand (Z),B02
+154,sand (Z),B01
+155,sand (Z),B01
+156,sand (Z),B02
+157,sand (Z),B01
+158,loamy sand (S),B03
+159,loamy sand (S),B03
+160,loamy sand (S),B03
+161,loamy sand (S),B03
+162,loamy sand (S),B02
+163,sand (Z),B02
+164,loamy sand (S),B03
+165,sand (Z),B01
+166,sand (Z),B01
+167,sand (Z),B01
+168,sand (Z),B01
+169,sand (Z),B01
+170,sand (Z),B01
+171,sand (Z),B01
+172,sand (Z),B01
+173,loamy sand (S),B03
+174,light sandy loam (P),B03
+175,light sandy loam (P),B07
+176,loamy sand (S),B03
+177,loamy sand (S),B07
+178,loamy sand (S),B02
+179,loamy sand (S),B02
+180,loamy sand (S),B02
+181,loamy sand (S),B03
+182,loamy sand (S),B03
+183,loamy sand (S),B07
+184,loamy sand (S),B02
+185,loamy sand (S),B03
+186,loamy sand (S),B02
+187,loamy sand (S),B02
+188,loamy sand (S),B03
+189,loamy sand (S),B03
+190,loamy sand (S),B03
+191,loamy sand (S),B03
+192,sand (Z),B01
+193,sand (Z),B01
+194,sand (Z),B01
+195,sand (Z),B01
+196,sand (Z),B01
+197,sand (Z),B01
+198,sand (Z),B01
+199,sand (Z),B01
+200,sand (Z),B01
+201,sand (Z),B01
+202,sand (Z),B01
+203,loamy sand (S),B07
+204,loamy sand (S),B02
+205,loamy sand (S),B03
+206,sand (Z),B02
+207,sand (Z),B01
+208,sand (Z),B01
+209,sand (Z),B01
+210,sand (Z),B01
+211,sand (Z),B01
+212,sand (Z),B01
+213,sand (Z),B01
+214,sand (Z),B01
+215,sand (Z),B01
+216,clay (E),B10
+217,clay (E),B09
+218,light sandy loam (P),B07
+219,sandy loam (L),B08
+220,sandy loam (L),B07
+221,loamy sand (S),B03
+222,loamy sand (S),B07
+223,light sandy loam (P),B07
+224,light sandy loam (P),B03
+225,light sandy loam (P),B03
+226,light sandy loam (P),B03
+227,light sandy loam (P),B03
+228,light sandy loam (P),B07
+229,loamy sand (S),B03
+230,loamy sand (S),B03
+231,loamy sand (S),B03
+232,loamy sand (S),B02
+233,loamy sand (S),B02
+234,loamy sand (S),B03
+235,loamy sand (S),B03
+236,loamy sand (S),B03
+237,loamy sand (S),B02
+238,sand (Z),B02
+239,loamy sand (S),B07
+240,sand (Z),B01
+241,loamy sand (S),B02
+242,sand (Z),B02
+243,sandy loam (L),B07
+244,sandy loam (L),B08
+245,sandy loam (L),B07
+246,sandy loam (L),B08
+247,sandy loam (L),B08
+248,loamy sand (S),B03
+249,loamy sand (S),B03
+250,loamy sand (S),B03
+251,light sandy loam (P),B03
+252,light sandy loam (P),B03
+253,light sandy loam (P),B03
+254,light sandy loam (P),B03
+255,light sandy loam (P),B03
+256,loamy sand (S),B03
+257,loamy sand (S),B02
+258,loamy sand (S),B03
+259,loamy sand (S),B02
+260,loamy sand (S),B03
+261,loamy sand (S),B03
+262,loamy sand (S),B03
+263,loamy sand (S),B02
+264,loamy sand (S),B02
+265,loamy sand (S),B03
+266,loamy sand (S),B03
+267,loamy sand (S),B02
+268,loamy sand (S),B07
+269,clay (E),B10
+270,clay (E),B09
+271,light sandy loam (P),B07
+272,sandy loam (L),B13
+273,light sandy loam (P),B04
+274,sandy loam (L),B13
+275,light sandy loam (P),B04
+276,sandy loam (L),B07
+277,loamy sand (S),B02
+278,light sandy loam (P),B04
+279,light sandy loam (P),B07
+280,loamy sand (S),B02
+281,loamy sand (S),B03
+282,loamy sand (S),B02
+283,loamy sand (S),B03
+284,loamy sand (S),B03
+285,loamy sand (S),B03
+286,loamy sand (S),B02
+287,loamy sand (S),B02
+288,loamy sand (S),B02
+289,sand (Z),B01
+290,sandy loam (L),B08
+291,loamy sand (S),B02
+292,loamy sand (S),B02
+293,light sandy loam (P),B07
+294,light sandy loam (P),B04
+295,light sandy loam (P),B03
+296,light sandy loam (P),B07
+297,loamy sand (S),B07
+298,loamy sand (S),B03
+299,loamy sand (S),B03
+300,loamy sand (S),B03
+301,loamy sand (S),B02
+302,loamy sand (S),B03
+303,loamy sand (S),B03
+304,loamy sand (S),B03
+305,heavy clay (U),B11
+306,loamy sand (S),B02
+307,loamy sand (S),B02
+308,loamy sand (S),B02
+309,loamy sand (S),B02
+310,loamy sand (S),B03
+311,loamy sand (S),B02
+312,loamy sand (S),B02
+313,sand (Z),B01
+314,sand (Z),B02
+315,sand (Z),B02
+316,clay (E),B09
+317,light sandy loam (P),B07
+318,sandy loam (L),B07
+319,sandy loam (L),B04
+320,sandy loam (L),B07
+321,sandy loam (L),B07
+322,sandy loam (L),B08
+323,light sandy loam (P),B03
+324,light sandy loam (P),B07
+325,light sandy loam (P),B03
+326,light sandy loam (P),B03
+327,light sandy loam (P),B03
+328,light sandy loam (P),B04
+329,light sandy loam (P),B07
+330,light sandy loam (P),B03
+331,light sandy loam (P),B03
+332,light sandy loam (P),B07
+333,sandy loam (L),B04
+334,light sandy loam (P),B04
+335,sandy loam (L),B04
+336,sandy loam (L),B04
+337,sandy loam (L),B04
+338,sandy loam (L),B07
+339,sandy loam (L),B07
+340,light sandy loam (P),B03
+341,light sandy loam (P),B03
+342,light sandy loam (P),B04
+343,light sandy loam (P),B03
+344,light sandy loam (P),B04
+345,light sandy loam (P),B04
+346,loamy sand (S),B03
+347,loamy sand (S),B03
+348,light sandy loam (P),B04
+349,sandy loam (L),B04
+350,sandy loam (L),B07
+351,sandy loam (L),B07
+352,sandy loam (L),B07
+353,light sandy loam (P),B04
+354,light sandy loam (P),B04
+355,light sandy loam (P),B04
+356,light sandy loam (P),B04
+357,light sandy loam (P),B04
+358,loamy sand (S),B07
+359,loamy sand (S),B03
+360,sandy loam (L),B07
+361,sandy loam (L),B07
+362,sandy loam (L),B07
+363,light sandy loam (P),B04
+364,light sandy loam (P),B04
+365,loam (A),B08
+366,sandy loam (L),B08
+367,clay (E),B09
+368,sandy loam (L),B13
+369,sandy loam (L),B08
+370,sandy loam (L),B13
+371,light sandy loam (P),B04
+372,light sandy loam (P),B04
+373,sandy loam (L),B07
+374,sand (Z),B02
+375,light sandy loam (P),B04
+376,loamy sand (S),B03
+377,light sandy loam (P),B04
+378,loamy sand (S),B03
+379,loamy sand (S),B03
+380,sand (Z),B02
+381,sandy loam (L),B08
+382,sandy loam (L),B07
+383,sandy loam (L),B07
+384,sandy loam (L),B07
+385,sandy loam (L),B07
+386,sandy loam (L),B07
+387,sandy loam (L),B07
+388,sand (Z),B02
+389,sandy loam (L),B08
+390,sandy loam (L),B07
+391,sandy loam (L),B07
+392,sandy loam (L),B07
+393,clay (E),B10
+394,sandy loam (L),B07
+395,sandy loam (L),B07
+396,sandy loam (L),B04
+397,sandy loam (L),B07
+398,sandy loam (L),B07
+399,sandy loam (L),B07
+400,sandy loam (L),B07
+401,sandy loam (L),B07
+402,light sandy loam (P),B04
+403,sandy loam (L),B07
+404,loam (A),B07
+405,loam (A),B07
+406,clay (E),B10
+407,sandy loam (L),B07
+408,sandy loam (L),B13
+409,sandy loam (L),B04
+410,sandy loam (L),B13
+411,sandy loam (L),B07
+412,sandy loam (L),B13
+413,sandy loam (L),B07
+414,sandy loam (L),B07
+415,sandy loam (L),B13
+416,sandy loam (L),B07
+417,loam (A),B07
+418,loam (A),B07
+419,loam (A),B07
+420,loam (A),B17
+421,loam (A),B07
+422,sandy loam (L),B07
+423,loam (A),B07
+424,sandy loam (L),B04
+425,sandy loam (L),B07
+426,sandy loam (L),B07
+427,sandy loam (L),B07
+428,sandy loam (L),B07
+429,sandy loam (L),B13
+430,sandy loam (L),B07
+431,sandy loam (L),B07
+432,sandy loam (L),B07
+433,sandy loam (L),B07
+434,sandy loam (L),B07
+435,loam (A),B08
+436,loam (A),B08
+437,loam (A),B08
+438,loam (A),B07
+439,loam (A),B08
+440,loam (A),B07
+441,loam (A),B07
+442,loam (A),B07
+443,loam (A),B07
+444,loam (A),B07
+445,loam (A),B07
+446,loam (A),B08
+447,loam (A),B07
+448,loam (A),B08
+449,loam (A),B08
+450,loam (A),B07
+451,loam (A),B08
+452,loam (A),B08
+453,loam (A),B08
+454,loam (A),B08
+455,loam (A),B08
+456,heavy clay (U),B10
+457,sandy loam (L),B07
+458,sandy loam (L),B13
+459,sandy loam (L),B07
+460,loam (A),B07
+461,loam (A),B08
+462,loam (A),B08
+463,loam (A),B07
+464,loam (A),B07
+465,sandy loam (L),B07
+466,loam (A),B08
+467,loam (A),B08
+468,loam (A),B08
+469,sandy loam (L),B07
+470,loam (A),B07
+471,sandy loam (L),B07
+472,loam (A),B08
+473,sandy loam (L),B07
+474,loam (A),B08
+475,clay (E),B09
+476,clay (E),B08
+477,sandy loam (L),B07
+478,sandy loam (L),B07
+479,sandy loam (L),B07
+480,clay (E),B08
+481,sandy loam (L),B07
+482,loam (A),B08
+483,loam (A),B08
+484,loam (A),B08
+485,loam (A),B08
+486,sand (Z),B01
+487,sand (Z),B01
+488,sand (Z),B01
+489,sand (Z),B01
+490,clay (E),B10
+491,sand (Z),B01
+492,sand (Z),B07
+493,sand (Z),B01
+494,loam (A),B08
+495,loam (A),B07
+496,loam (A),B08
+497,loam (A),B08
+498,loam (A),B09
+499,loam (A),B09
+500,clay (E),B10
+501,clay (E),B10
+502,clay (E),B09
+503,clay (E),B10
+504,sandy loam (L),B07
+505,sandy loam (L),B07
+506,sandy loam (L),B08
+507,sandy loam (L),B04
+508,sandy loam (L),B07
+509,sandy loam (L),B08
+510,sandy loam (L),B08
+511,sandy loam (L),B08
+512,light sandy loam (P),B07
+513,light sandy loam (P),B07
+514,light sandy loam (P),B07
+515,light sandy loam (P),B07
+516,light sandy loam (P),B04
+517,light sandy loam (P),B03
+518,light sandy loam (P),B04
+519,light sandy loam (P),B03
+520,light sandy loam (P),B07
+521,light sandy loam (P),B07
+522,loamy sand (S),B03
+523,loamy sand (S),B03
+524,loamy sand (S),B03
+525,loamy sand (S),B03
+526,loamy sand (S),B03
+527,loamy sand (S),B03
+528,loamy sand (S),B03
+529,loamy sand (S),B02
+530,loamy sand (S),B02
+531,loamy sand (S),B02
+532,heavy clay (U),B11
+533,heavy clay (U),B12
+534,heavy clay (U),B11
+535,light sandy loam (P),B07
+536,sand (Z),B01

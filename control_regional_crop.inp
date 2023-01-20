@@ -1,0 +1,37 @@
+# Controlfile:  SWAP-WOFOST
+# Author:       H.M. Mulder 
+# Adapted by Diana Estrella
+#________________________________________________
+#
+
+# DIRECTORIES
+#------------------------------------------------
+
+DIRRUN                              ./Output
+
+# INPUT DATA
+
+SOIL                              ./maps/soil_type_500.asc
+CROP				   1  # Crop id ( 1: grassland(mowing), 6:maize, 7: winter wheat, 9:potatoes, 11: sugar beet)
+AVGGWL                            ./maps/GWL_avg_500.asc
+GHG                               ./maps/GHG_500.asc
+GLG                               ./maps/GLG_500.asc
+METEO                             ./maps/JRC_meteo.asc 
+
+# MAINPROCESS
+#------------------------------------------------
+
+MAINPROCESS                         Yes
+
+RUNID                               1-1000                                     # Array of simulations
+
+START				    1990-1-1                                   # Start of simulation
+END                                 2021-12-31                                 # End of simulation
+
+PRGSWP                              ./source/swap_4.2.0.exe                    # swap executable
+FILSQL                              ./database/regional_crop1_ind.sqlite   # sqlite database
+
+FILSWP                              ./swap.swp                                # file name main swp-file
+DIRCRP                              ./crop                                    # folder crp-file(s)
+DIRMET                              ./meteo                                   # folder met-file(s)
+
