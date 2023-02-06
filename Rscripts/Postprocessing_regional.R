@@ -12,7 +12,7 @@ source("./libraries/libraries.R")
 source("./Rscripts/functions.R")
 
 message(str_c("\nAnalyse results...\n"))
-
+#Analysis per crop-----------------------
 crop = "sugar_beet" # specify one of the 5 crops
 dir_run <- "./output/sugar_beet"
 file_sql<-"./database/regional_crop11_ind.sqlite"
@@ -225,9 +225,9 @@ ggsave(filename = str_c("../plots/gwl_yield_crit",crop, ".png"), plot =plot_gwl_
 
 #Analysis of all crops together-------------
 
-myData<-read_csv(file="./output/data_all_maps.csv", show_col_types = FALSE, progress=FALSE)
-db_all<-read_csv(file="./output/spatial_variation.csv", show_col_types = FALSE, progress=FALSE)
-yield_avg_all<-read_csv(file="./output/temporal_variation.csv", show_col_types = FALSE, progress=FALSE)
+myData<-read_csv(file="./output/data_maps_agric.csv", show_col_types = FALSE, progress=FALSE)
+db_all<-read_csv(file="./output/spatial_variation_agric.csv", show_col_types = FALSE, progress=FALSE)
+yield_avg_all<-read_csv(file="./output/temporal_variation_agric.csv", show_col_types = FALSE, progress=FALSE)
 
 #Rename crop names
 db_all_tmp<-db_all
@@ -313,10 +313,13 @@ db_all_tmp<-myData%>%
 
 db_all_tmp$crop<-factor(db_all_tmp$crop, labels=c( "potato","grass","silage maize", "sugar beet", "winter wheat")) #pay attention to the rename of categories
 
+year.labs<-c("2015 (normal)", "2018 (dry)", "2021 (wet)")
+names(year.labs)<-unique(db_all_tmp$year)
+
 #Figure 6 chapter "Regional analysis & plausibility check"
-plot_gwl_all <-ggplot(data=db_all_tmp, aes(x = -1*(gwl_avg/100), y = Y_act))%>% 
+plot_gwl_all <-ggplot(data=db_all_tmp, aes(x =Y_act , y = -1*(gwl_avg/100)))%>% 
   + geom_point(aes(color= soil_texture),  size=0.3, alpha=0.03)%>%
-  + geom_smooth(aes(color= soil_texture), se=FALSE, linewidth=0.6) %>%
+  + geom_smooth(aes(x =Y_act , y = -1*(gwl_avg/100), color= soil_texture), orientation="y", se=FALSE, linewidth=0.6) %>%
   + scale_color_manual(values=c("clay (E)"="orange3",
                                 "heavy clay (U)"="orange4", 
                                 "light sandy loam (P)"="seagreen2", 
@@ -325,9 +328,9 @@ plot_gwl_all <-ggplot(data=db_all_tmp, aes(x = -1*(gwl_avg/100), y = Y_act))%>%
                                 "loam (A)"="maroon3", 
                                 "loamy sand (S)"="maroon4")
   )%>%
-  + labs(x="Average groundwater depth (m)", y = "Dry matter yield (ton ha ^{-1})", color="Soil texture") %>%
-  + scale_x_continuous(limits = c(0,5), expand = c(0, 0))%>%
-  + scale_y_continuous(limits = c(0,NA))%>%
+  + labs(x= "Dry matter yield (ton/ha)", y = "Average groundwater depth (m)", color="Soil texture") %>%
+  + scale_y_reverse(limits = c(5,0), expand=c(0,0))%>%
+  + scale_x_continuous(breaks = function(x) unique(floor(pretty(seq(0, (max(x) + 1) * 1.1)))),limits = c(0,NA))%>%
   + theme_light()%>%
   + theme(
     text=element_text(size=size),
@@ -337,11 +340,9 @@ plot_gwl_all <-ggplot(data=db_all_tmp, aes(x = -1*(gwl_avg/100), y = Y_act))%>%
     panel.grid.minor = element_blank(),
     panel.border = element_rect(color="grey"),
     strip.placement="outside",
-    panel.spacing.x =unit(1,"lines"),
+    panel.spacing =unit(1,"lines"),
   )%>%
-  + facet_grid(rows= vars(factor(crop, levels=c("grass", "silage maize", "potato", "winter wheat", "sugar beet"))), cols=vars(year), scales = "free")
-
-plot_gwl_all 
+  + facet_grid(rows=vars(year) , cols= vars(factor(crop, levels=c("grass", "silage maize", "potato", "winter wheat", "sugar beet"))),labeller = labeller (year=year.labs), scales = "free")
 
 ggsave(filename = str_c("../plots/yield_gwl_all.png"), plot =plot_gwl_all, width = 10, height = 8)
 
