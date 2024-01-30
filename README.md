@@ -13,13 +13,13 @@ The **swap.swp** file is the main swap file, containing general information rega
 
 # Additional Files
 
-## soiltextureclass.csv  
+### soiltextureclass.csv  
 USDA and Belgian soil texture classification for each soil layer and profile.
 
-## soil_classification.csv  
+### soil_classification.csv  
 Belgian soil texture classification for the top layer of each profile.
 
-## yields_statbel20122021.csv  
+### yields_statbel20122021.csv  
 Average yearly yields from 2012 to 2021, for silage maize, sugar beet, winter wheat, potato and grass.  
 These values are obtained from [STATBEL](https://statbel.fgov.be/en/themes/agriculture-fishery/farm-and-horticultural-holdings), except for grass which is based on field experiments at [ILVO](https://rassenlijst.ilvo.vlaanderen.be/en/comparison-of-grass-variety-characteristics)
 
