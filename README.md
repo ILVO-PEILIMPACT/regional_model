@@ -24,10 +24,10 @@ Average yearly yields from 2012 to 2021, for silage maize, sugar beet, winter wh
 These values are obtained from [STATBEL](https://statbel.fgov.be/en/themes/agriculture-fishery/farm-and-horticultural-holdings), except for grass which is based on field experiments at [ILVO](https://rassenlijst.ilvo.vlaanderen.be/en/comparison-of-grass-variety-characteristics)
 
 ## Agricultural yield database Flanders
-Yield database for silage maize, sugar beet, winter wheat, potato and grass used for model validation
-You can access it in the [zenodo repository](https://zenodo.org/records/8017476)
+Yield database for silage maize, sugar beet, winter wheat, potato and grass used for model validation  
+You can access it in the [zenodo repository](https://zenodo.org/records/8017476).
 
-### Contact
+## Contact
 
 diana.estrella@ilvo.vlaanderen.be  
 sarah.garre@ilvo.vlaanderen.be
