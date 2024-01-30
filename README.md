@@ -27,6 +27,7 @@ These values are obtained from [STATBEL](https://statbel.fgov.be/en/themes/agric
 Yield database for silage maize, sugar beet, winter wheat, potato and grass used for model validation
 You can access it in the [zenodo repository](https://zenodo.org/records/8017476)
 
-For further information you can contact  
+### Contact
+
 diana.estrella@ilvo.vlaanderen.be  
 sarah.garre@ilvo.vlaanderen.be
