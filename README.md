@@ -17,15 +17,15 @@ In synthesis, the model needs three main input files: meteo files (.met), crop f
 
 ## Structure and configuration
 
-The regional model was constructed by defining a 500 m resolution grid covering the extent of Flanders, each pixel corresponding to a run ID. The necessary input data for each run ID and crop type was stored in Sqlite databases. The Sqlite database uses the tabular information stored in csv files such as soil parameters and crop management parameters (**input_data** folder); and spatial information stored in ASCII maps such as average groundwater level at each pixel (**maps** folder). These ASCII maps and csv files are linked by means of IDs (e.g. meteo_id, soil_id, ..). For each run ID, input files (.crp and .swp) required by SWAP are created using information from the sqlite database, and the model is run using the model executable (**source** folder). The output of the model is the **result_output.csv** file, which contains several output variables like daily crop transpiration and biomass, which is previously specified in the Sqlite database. During postprocessing, the potential and actual dry matter yield for each year, and yield reduction due to water stress and/or indirect effects are calculated. 
-The Sqlite databases and resulting and processed files are not provided in this github repository due to size limitations.
+The regional model was constructed by defining a 500 m resolution grid covering the extent of Flanders, each pixel corresponding to a run ID. The necessary input data for each run ID and crop type was stored in Sqlite databases. The Sqlite database uses the tabular information stored in csv files such as soil parameters and crop management parameters (**input_data** folder); and spatial information stored in ASCII maps such as average groundwater level at each pixel (**maps** folder). These ASCII maps and csv files are linked by means of IDs (e.g. meteo_id, soil_id, ..). For each run ID, input files (.crp and .swp) required by SWAP are created using information from the sqlite database, and the model is run using the model executable (**source** folder). The control file **control_regional_crop.inp** contains directories and paths of the input data files. The main output of the model is the **result_output.csv** file, which contains several output variables like daily crop transpiration and biomass, which is previously specified in the Sqlite database. During postprocessing, the potential and actual dry matter yield for each year, and yield reduction due to water stress and/or indirect effects are calculated. 
+The Sqlite databases and resulting files are not provided in this github repository due to size limitations.
 
 ### Rscripts  
-1. **SQLITE.R**: Creates the Sqlite database  
-2. **Run_regional.R**: Runs the model SWAP for an array of simulations  
-3. **Postprocessing_regional.R**:  Processes model results and creates plots  
-4. **functions.R** : Contains R functions for generation of Sqlite database and postprocessing of the model results
-5. **maps.R** : Crop yield maps
+1. `SQLITE.R`: Creates the Sqlite database  
+2. `Run_regional.R`: Runs the model SWAP for an array of simulations  
+3. `Postprocessing_regional.R`:  Processes model results and creates plots  
+4. `functions.R` : Contains R functions for generation of Sqlite database and postprocessing of the model results
+5. `maps.R`: Crop yield maps
 
 ## Additional Files
 
@@ -36,7 +36,7 @@ USDA and Belgian soil texture classification for each soil layer and profile.
 Belgian soil texture classification for the top layer of each profile.
 
 ### yields_statbel20122021.csv  
-Average yearly yields from 2012 to 2021, for silage maize, sugar beet, winter wheat,potato and grass.  
+Average yearly yields from 2012 to 2021, for silage maize, sugar beet, winter wheat, potato and grass.  
 These values are obtained from [STATBEL](https://statbel.fgov.be/en/themes/agriculture-fishery/farm-and-horticultural-holdings), except for grass that is based on field experiments at ILVO
 
 ## Requirements
